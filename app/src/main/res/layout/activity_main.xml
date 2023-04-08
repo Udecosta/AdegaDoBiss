@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        tools:context=".view.MainActivity">
+
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_main_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/button_check_login"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_buttom"
+            android:fontFamily="@font/bangers_regular"
+            android:gravity="center"
+            android:text="Fazer pedido"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorButton"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/button_check_login"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view6"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_buttom"
+            android:fontFamily="@font/bangers_regular"
+            android:gravity="center"
+            android:text="Meus Pedidos"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorButton"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/button_check_login"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button_check_login" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers_regular"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/colorButton"
+            app:layout_constraintBottom_toTopOf="@+id/button_check_login"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:fontFamily="@font/bangers_regular"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="Horarios de delivery"
+            android:textColor="@color/colorButton"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "606647847304",
+    "firebase_url": "https://adegadobiss-e3dcc.firebaseio.com",
+    "project_id": "adegadobiss-e3dcc",
+    "storage_bucket": "adegadobiss-e3dcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606647847304:android:ae4966d10ee9c98506923d",
+        "android_client_info": {
+          "package_name": "com.example.adegadobiss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606647847304-rms8rjcf2k6812ddnrtuevdprg11qg2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adegadobiss",
+            "certificate_hash": "06415935e271b23f45eda36eb7c1dff909f20777"
+          }
+        },
+        {
+          "client_id": "606647847304-r29jvfcuva9n2et8lqb6vchfnf9f322h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6XWe9MCW6Dbb82zT-0B5oYRrKzqwOvdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606647847304-r29jvfcuva9n2et8lqb6vchfnf9f322h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

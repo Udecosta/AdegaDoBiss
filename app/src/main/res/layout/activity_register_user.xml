@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.ActivityRegisterUser">
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/ic_wave4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_account_box_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view9" />
+
+    <EditText
+        android:id="@+id/editTextTextAddress"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_my_location_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:paddingStart="15dp"
+        android:ems="10"
+        android:hint="Endereço"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCep"
+        app:layout_constraintStart_toStartOf="@+id/editTextCep"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCep" />
+
+    <EditText
+        android:id="@+id/editTextTextNumber"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_looks_3_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="15dp"
+        android:ems="10"
+        android:hint="Número da residencia"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editTextComplemento"
+        app:layout_constraintStart_toStartOf="@+id/editTextComplemento"
+        app:layout_constraintTop_toBottomOf="@+id/editTextComplemento" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_add_ic_call_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:paddingStart="15dp"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintEnd_toEndOf="@+id/editTextName"
+        app:layout_constraintStart_toStartOf="@+id/editTextName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+
+    <EditText
+        android:id="@+id/editTextCep"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_add_location_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:layout_marginTop="10dp"
+        android:hint="CEP"
+        android:inputType="number"
+        android:paddingStart="15dp"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPhone"
+        app:layout_constraintStart_toStartOf="@+id/editTextPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <EditText
+        android:id="@+id/editTextBairro"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_location_city_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="15dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:ems="10"
+        android:hint="Bairro"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextAddress"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextAddress" />
+
+    <EditText
+        android:id="@+id/editTextComplemento"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_house_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:paddingStart="15dp"
+        android:ems="10"
+        android:hint="Complemento"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextBairro"
+        app:layout_constraintStart_toStartOf="@+id/editTextBairro"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBairro" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:gravity="center"
+        android:text="Ir para o Pagamento"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:fontFamily="@font/bangers_regular"
+        android:textColor="@color/colorIButtonLogin"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextNumber"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextNumber"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers_regular"
+        android:gravity="center"
+        android:text="Dados para Entrega"
+        android:textColor="@color/colorIButtonLogin"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers_regular"
+        android:gravity="center"
+        android:text="Frete R$"
+        android:textColor="@color/colorIButtonLogin"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

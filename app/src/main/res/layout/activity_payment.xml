@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundWeb"
+    tools:context=".view.PaymentActivity">
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/ic_wave4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="260dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers_regular"
+        android:gravity="center"
+        android:text="Confirme seus dados"
+        android:textColor="@color/colorBackground"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view10" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers_regular"
+        android:gravity="center"
+        android:text="Pagamento"
+        android:textColor="@color/colorIButtonLogin"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_account_box_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textColor="@color/colorBackground"
+        android:paddingStart="20dp"
+        android:text="Nome"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginTop="5dp"
+        android:text="Telefone"
+        android:drawableStart="@drawable/ic_baseline_add_ic_call_24"
+        android:textColor="@color/colorBackground"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_add_location_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:layout_marginTop="5dp"
+        android:paddingStart="20dp"
+        android:text="CEP"
+        android:textColor="@color/colorBackground"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginTop="5dp"
+        android:text="Endereço"
+        android:drawableStart="@drawable/ic_baseline_my_location_24"
+        android:textColor="@color/colorBackground"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginTop="5dp"
+        android:text="Fulano da Silva"
+        android:drawableStart="@drawable/ic_baseline_location_city_24"
+        android:textColor="@color/colorBackground"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginTop="5dp"
+        android:text="Fulano da Silva"
+        android:drawableStart="@drawable/ic_baseline_house_24"
+        android:textColor="@color/colorBackground"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginTop="5dp"
+        android:text="Fulano da Silva"
+        android:drawableStart="@drawable/ic_baseline_looks_3_24"
+        android:textColor="@color/colorBackground"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:textSize="14sp"
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:drawableStart="@drawable/ic_baseline_payments_24"
+        android:textColor="@color/colorBackground"
+        android:drawablePadding="10dp"
+        android:paddingStart="20dp"
+        android:text="Forma de Pagamento:"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:spinnerMode="dropdown"
+        android:textAlignment="textStart"
+        android:gravity="center|start"
+        style="@style/SpinnerTheme"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textViewSetData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bangers_regular"
+        android:text="Alterar endereço de entrega"
+        android:textColor="@color/colorBackground"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <Button
+        android:id="@+id/buttonConfirmation"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/bangers_regular"
+        android:gravity="center"
+        android:text="Confirmar Pedido"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorIButtonLogin"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/editextObservation"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers_regular"
+        android:gravity="center"
+        android:text="VALOR TOTAL R$ 450,00"
+        android:textColor="@color/colorIButtonLogin"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/editextObservation"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/ic_baseline_note_add_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dosis_semi_bold"
+        android:hint="Observações"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:textColor="@color/colorBackground"
+        android:textColorHint="@color/colorBackground"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSetData" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

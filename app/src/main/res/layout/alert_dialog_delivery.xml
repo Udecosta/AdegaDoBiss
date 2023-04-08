@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundWeb"
+        android:padding="15dp">
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_wave4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Terça a Quinta das 16:00 as 00:00"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/view11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/view11"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Sexta e Sabado Das 16:00 as 02:00"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView32"
+            app:layout_constraintStart_toStartOf="@+id/textView32"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Domingo Das 14:00 as 00:00"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView33"
+            app:layout_constraintStart_toStartOf="@+id/textView33"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="25dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/bangers_regular"
+            android:text="fechar"
+            android:textColor="@color/colorButton"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView46"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Contatos"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView34"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Delivery"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/view11"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/view11"
+            app:layout_constraintTop_toBottomOf="@+id/view11" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Telefone 1: 96615-7036"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView34"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Telefone 2: 94552-1841"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView34"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Email: lucasbisadega@gmail.com"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView43"
+            app:layout_constraintStart_toStartOf="@+id/textView43"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Endereço"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView40"
+            app:layout_constraintStart_toStartOf="@+id/textView40"
+            app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/dosis_bold"
+            android:gravity="center"
+            android:text="Rua ibiza 200, guarapiranga"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView34"
+            app:layout_constraintHorizontal_bias="0.539"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

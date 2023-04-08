@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:fontFamily">@font/dosis_semi_bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorBackground</item>
+    </style>
+</resources>
